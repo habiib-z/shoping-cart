@@ -1,0 +1,28 @@
+.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+section{
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+}
+img{
+    border-radius: 3px;
+}
+#length{
+    position: absolute;
+    top: 8px;
+    left: 153px;
+    background-color: rgb(126, 255, 6);
+    border-radius: 50px;
+    cursor: pointer;
+    height: 22px;
+}
+.remove,
+.dropdown-item{
+    cursor: pointer;
+}

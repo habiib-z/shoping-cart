@@ -1,0 +1,9 @@
+.con{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#length{
+    position: absolute;
+    top: 8px;
+    left: 25px;
+}
