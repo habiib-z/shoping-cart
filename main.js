@@ -48,6 +48,7 @@ add.forEach(function(item){
           });
           })
     })
+//remove element
     function remove(element){
 let item_del = element.parentElement;
 item_del.parentElement.remove();
@@ -56,6 +57,7 @@ price_element.textContent = `${prices}$`;
 length_card--;
 document.getElementById('length').textContent = length_card;
     }
+//clear cart
     document.querySelector('.clear').addEventListener('click',function(){
         document.querySelector('.modal-body').innerHTML = '';
         length_card=0;
@@ -63,6 +65,7 @@ document.getElementById('length').textContent = length_card;
         price_element.textContent = `${prices}$`;
         document.getElementById('length').textContent = length_card;
     })
+//search
     let search_input = document.querySelector('.search');
     search_input.addEventListener('keyup',function(e){
 var search_value = e.target.value.toLowerCase();
@@ -75,6 +78,7 @@ if(element_name.textContent.toLocaleLowerCase().indexOf(search_value) != -1){
 }
 })
     })
+// filter
     document.querySelector('.sm').addEventListener('click',function(){
             document.querySelectorAll('.prr').forEach(function(el){
                 var num = parseInt(el.textContent);
