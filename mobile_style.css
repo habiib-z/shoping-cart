@@ -2,8 +2,3 @@
     display: grid;
     grid-template-columns: 1fr;
 }
-#length{
-    position: absolute;
-    top: 7px;
-    left: 25px;
-}
