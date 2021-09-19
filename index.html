@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,147 +13,113 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-2">
-        <button type="button" class="btn btn-primary m-0 p-2 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <i class="bi bi-cart3 fs-4"></i>
+  <div class="container_css">
+    <button type="button" class="btn btn-primary m-0 p-2 mt-2 cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="bi bi-cart3 fs-4"></i>
+      <p id="length">0</p>
+    </button>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle mt-2" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown">
+          filter
         </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item active">all</li>
+          <li class="dropdown-item sm">Inexpensive</li>
+          <li class="dropdown-item bg">Expensive</li>
+        </ul>
       </div>
-      <div class="col-1 p-0 m-0">
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle mt-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
-            filter
-          </button>
-          <ul class="dropdown-menu">
-            <li class="dropdown-item active">all</li>
-            <li class="dropdown-item sm">Inexpensive</li>
-            <li class="dropdown-item bg">Expensive</li>
-          </ul>
-        </div>
-      </div>
- <div class="col-md-9">
-   <input type="text" class="form-control m-2 search" placeholder="Type For Search In Shop">
- </div>
+    <div class="search">
+      <input type="text" class="form-control m-2 search" placeholder="Type For Search In Shop">
     </div>
   </div>
-  <p id="length">0</p>
+  </div>
   <div class="con">
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/610/200/100.jpg?hmac=N-eCwr4DR4GK00SPDGZsglt9plpxTaDvAye1aA3YPBE"  loading="lazy" >
       <h4 class="item_name">item 1</h4>
       <p class="prr">200</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/521/200/100.jpg?hmac=BdyUjqqxdtw1ZC8U3jCS52oCPR5HYqQjE2_8-h9Upi8"  loading="lazy">
       <h4 class="item_name">item 2</h4>
       <p class="prr">124</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/401/200/100.jpg?hmac=Kyqu_Al5Vxiy7LZI3oPWfZKr6MsKgUnuvtySjNIFSog" loading="lazy">
       <h4 class="item_name">item 3</h4>
       <p class="prr">120</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/450/200/100.jpg?hmac=tX_MycTXgPltlcMpYzyjRUPqMQ9xUrK9zIxbItDehM0" loading="lazy">
       <h4 class="item_name">item 4</h4>
       <p class="prr">10</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/162/200/100.jpg?hmac=u_SQOdD9ybWp_vmKMdtEwUOoiKbvq7H7ZVFyJQ9sZZ8" loading="lazy">
       <h4 class="item_name">item 5</h4>
       <p class="prr">24</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/1073/200/100.jpg?hmac=dhd1FE9vZYILkvXtNTn4EDb1-Fy0H2bjQbyE9NkTURU" loading="lazy">
       <h4 class="item_name">item 6</h4>
       <p class="prr">120</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/701/200/100.jpg?hmac=VJt2Af0U01T-bWwTCbI39ObkqSnfeK2ZtIJy-4uiYWQ" loading="lazy">
       <h4 class="item_name">item 7</h4>
       <p class="prr">3</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/371/200/100.jpg?hmac=R1l1sKZ22H8ozpHOaJz6OIyD80_whmH5tBqfCVUJmrk" loading="lazy">
       <h4 class="item_name">item 8</h4>
       <p class="prr">120</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/479/200/100.jpg?hmac=oFRJWPwa5933nzzvaZy6DZC7oWA6VooWizT24V3n37k" loading="lazy">
       <h4 class="item_name">item 9</h4>
       <p class="prr">65</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
     <section>
-      <img src="https://picsum.photos/200/100" alt="">
+      <img src="https://i.picsum.photos/id/434/200/100.jpg?hmac=tJaMw1uOesY9ElQI7FLM55Amz8eF304xWUpm06FMlvc" loading="lazy">
       <h4 class="item_name">item 10</h4>
       <p class="prr">75</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
+    </section>
+    <section>
+      <img src="https://i.picsum.photos/id/54/200/100.jpg?hmac=V6BqgY8soxw9VQJQAWAMUcMoEmkwxhgtiVCLANXcG2M" loading="lazy">
       <h4 class="item_name">item 11</h4>
       <p class="prr">420</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
+    </section>
+    <section>
+      <img src="https://i.picsum.photos/id/705/200/100.jpg?hmac=AkJhnOmGm5c8Rt54HuTBl-Zk71kVr9l73kp4YV_vHcI"  loading="lazy">
       <h4 class="item_name">item 12</h4>
       <p class="prr">45</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
+    </section>
+    <section>
+      <img src="https://i.picsum.photos/id/107/200/100.jpg?hmac=0NEtecB_v-QC0jKstofxwVGQ3G2AAPTSt6xuEA0QrNA"  loading="lazy">
       <h4 class="item_name">item 13</h4>
       <p class="prr">36</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
+    </section>
+    <section>
+      <img src="https://i.picsum.photos/id/827/200/100.jpg?hmac=pdd7T0UdAj0kufzgBhYSJsJcCc0mX9ErH4Bd6l9LtVU" loading="lazy">
       <h4 class="item_name">item 14</h4>
       <p class="prr">47</p>
       <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 15</h4>
-      <p class="prr">520</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 16</h4>
-      <p class="prr">18</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 17</h4>
-      <p class="prr">72</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 18</h4>
-      <p class="prr">80</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 19</h4>
-      <p class="prr">10</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 20</h4>
-      <p class="prr">12</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
-    </section>  <section>
-      <img src="https://picsum.photos/200/100" alt="">
-      <h4 class="item_name">item 21</h4>
-      <p class="prr">120</p>
-      <i class="bi bi-cart-plus fs-4 btn btn-success p-2"></i>
     </section>
+    
   </div>
   <!-- Button trigger modal -->
   <div class="modal fade rounded" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -166,12 +133,15 @@
         <div class="modal-body">
         </div>
         <div class="modal-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col"><button class="btn btn-primary clear"><i class="bi bi-arrow-counterclockwise"></i></button></div>
-        <div class="col"><p id="price"></p></div>
-      </div>
-    </div>
+          <div class="container">
+            <div class="row">
+              <div class="col"><button class="btn btn-primary clear"><i
+                    class="bi bi-arrow-counterclockwise"></i></button></div>
+              <div class="col">
+                <p id="price"></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -182,4 +152,5 @@
     crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
