@@ -1,7 +1,28 @@
+.container_css{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.search{
+    flex-grow: 3;
+}
+.dropdown{
+    flex-grow: .5;
+    text-align: center;
+    margin-left: 60px;
+}
+.cart{
+    flex-grow: .07;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
 .con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
 }
 section{
     margin: auto;
@@ -15,12 +36,13 @@ img{
 }
 #length{
     position: absolute;
-    top: 8px;
-    left: 153px;
-    background-color: rgb(126, 255, 6);
+    top: 7px;
+    left: 30px;
+    background-color: rgb(184, 247, 122);
     border-radius: 50px;
     cursor: pointer;
     height: 22px;
+    color: black;
 }
 .remove,
 .dropdown-item{
